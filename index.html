@@ -79,7 +79,7 @@
                             <small>2025-?</small>
                             <h4>Aligning on the SRA</h4>
                             
-			    <p><i>In <a href="http://rayan.chikhi.name/">Rayan Chikhi</a>'s lab in the institut Pasteur, France. The goal is to search efficiently through the Logan database, in order to provide a "super-BLAST" that would work on the full SRA. We'll see what happens... </i></p>
+			    <p><i>In <a target="_blank" href="http://rayan.chikhi.name/">Rayan Chikhi</a>'s lab in the institut Pasteur, France. The goal is to search efficiently through the Logan database, in order to provide a "super-BLAST" that would work on the full SRA. We'll see what happens... </i></p>
 			
 
                         </div>
@@ -93,9 +93,9 @@
                             <small>2021-2024</small>
                             <h4>Haplotype assembly from long reads</h4>
                             
-                            <p>The Ph.D. manuscript is available <a href="docs/these_compressed.pdf">here</a>.
+                            <p>The Ph.D. manuscript is available <a target="_blank" href="docs/these_compressed.pdf">here</a>.
                             
-			    <p><i>Under the joint supervision of <a href="http://lavenier.net/homepage/"> Dominique Lavenier </a> in the <a href="https://team.inria.fr/genscale/"> Genscale team in Rennes, France </a> and <a href="https://ebe.ulb.be/ebe/Flot.html"> Jean-François Flot </a> in the EBE team at the Université libre de Bruxelles, Belgium. The main work of my Ph.D. consisted in developping methods to obtain haplotype-separated assemblies. In the realm of noisy long reads, this yielded HairSplitter (sse below). In the realm of highly accurate long reads, this yielded the Alice assembler (see below). </i></p>
+			    <p><i>Under the joint supervision of <a target="_blank" href="http://lavenier.net/homepage/"> Dominique Lavenier </a> in the <a target="_blank" href="https://team.inria.fr/genscale/"> Genscale team in Rennes, France </a> and <a target="_blank" href="https://ebe.ulb.be/ebe/Flot.html"> Jean-François Flot </a> in the EBE team at the Université libre de Bruxelles, Belgium. The main work of my Ph.D. consisted in developping methods to obtain haplotype-separated assemblies. In the realm of noisy long reads, this yielded HairSplitter (sse below). In the realm of highly accurate long reads, this yielded the Alice assembler (see below). </i></p>
 			
 
                         </div>
@@ -122,11 +122,11 @@
 			    
                             <p>
                             	Existing fast high-fidelity reads assemblers (mDBG, metaMDBG) are based on k-min-mers sketches of the reads. This sketching method makes it impossible to assemble close strains. The idea of Alice is to use a new sketching method, MSR sketching, which does not have the same shortcoming. Alice is extremely fast while being haplotype-aware.<br>
-                            	Presented as a talk at <a href="https://seqbim.cnrs.fr/seqbim-2023/"> SeqBIM 2023</a> and <a href="https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20241113/"> Genome Informatics 2024 </a>, where I was granted a bursary to come and present it.
-                            I presented and discussed MSR sketching at DSB 2025 in Pisa. You can find the slides <a href="docs/DSB_2025.pdf">here</a>.
+                            	Presented as a talk at <a target="_blank" href="https://seqbim.cnrs.fr/seqbim-2023/"> SeqBIM 2023</a> and <a target="_blank" href="https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20241113/"> Genome Informatics 2024 </a>, where I was granted a bursary to come and present it.
+                            I presented and discussed MSR sketching at DSB 2025 in Pisa. You can find the slides <a target="_blank" href="docs/DSB_2025.pdf">here</a>.
                             </p>
 
-			    <p>The closest thing to a paper there exist yet is Chapter 2 of <a href="docs/these_compressed.pdf"> my Ph.D. thesis </a></p>
+			    <p>The closest thing to a paper there exist yet is Chapter 3 of <a target="_blank" href="docs/these_compressed.pdf#page=86"> my Ph.D. thesis </a></p>
 
 
                         </div>
@@ -141,16 +141,16 @@
                             <h3>Hairsplitter</h3>
                             <h4>Separating noisy long reads into an unknown number of haplotypes</h4>
 
-			    <p> <a href="https://peercommunityjournal.org/item/10_24072_pcjournal_481/"> Link to the Peer-Community Journal paper </a></p>
+			    <p> <a target="_blank" href="https://peercommunityjournal.org/item/10_24072_pcjournal_481/"> Link to the Peer-Community Journal paper </a></p>
 			    
                             <p>
-                            	The goal of Hairsplitter is to produce contiguous and uncollapsed (i.e. with all haplotypes still present) (meta-)genome assembly. It takes an assembly and sequencing reads as input, detects if contigs have been collapsed and output the corresponding uncollapsed assembly. Written in C++. <a href="https://github.com/RolandFaure/Hairsplitter" > Available on GitHub.</a> The most complete paper yet <a href="https://www.biorxiv.org/content/10.1101/2024.02.13.580067v2">can be found on biorxiv</a>.<br>
-                            	Presented as a poster at <a href="https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20220921/"> Genome informatics 2022</a> and <a href=http://iscb.org/ismbeccb2023> ISMB/ECCB 2023 </a>. <a href=https://RolandFaure.github.io/docs/Faure-Roland-Genscale-ISMBECCB2023.pdf> See the poster</a>. Presented as a talk at <a href="https://seqbim.cnrs.fr/"> SeqBIM 2022</a>, <a href=https://jobim2023.sciencesconf.org> JOBIM 2023 </a> and <a href="http://iscb.org/ismbeccb2023"> ISMB/ECCB 2023 </a>.
+                            	The goal of Hairsplitter is to produce contiguous and uncollapsed (i.e. with all haplotypes still present) (meta-)genome assembly. It takes an assembly and sequencing reads as input, detects if contigs have been collapsed and output the corresponding uncollapsed assembly. Written in C++. <a target="_blank" href="https://github.com/RolandFaure/Hairsplitter" > Available on GitHub.</a> The most complete paper yet <a target="_blank" href="https://www.biorxiv.org/content/10.1101/2024.02.13.580067v2">can be found on biorxiv</a>.<br>
+                            	Presented as a poster at <a target="_blank" href="https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20220921/"> Genome informatics 2022</a> and <a target="_blank" href=http://iscb.org/ismbeccb2023> ISMB/ECCB 2023 </a>. <a target="_blank" href=https://RolandFaure.github.io/docs/Faure-Roland-Genscale-ISMBECCB2023.pdf> See the poster</a>. Presented as a talk at <a target="_blank" href="https://seqbim.cnrs.fr/"> SeqBIM 2022</a>, <a target="_blank" href=https://jobim2023.sciencesconf.org> JOBIM 2023 </a> and <a target="_blank" href="http://iscb.org/ismbeccb2023"> ISMB/ECCB 2023 </a>.
                             </p>
 
-			    <p> <a href="https://www.scitepress.org/Papers/2024/123207/123207.pdf"> Link to the ILP improvement paper (presented at BIOSTEC 2024) </a></p>
+			    <p> <a target="_blank" href="https://www.scitepress.org/Papers/2024/123207/123207.pdf"> Link to the ILP improvement paper (presented at BIOSTEC 2024) </a></p>
 			    <p>
-			    	An Integer Linear Programming version of HairSplitter was developed with Tam Truong and Rumen Andonov and presented at <a href="https://bioinformatics.scitevents.org/"> 17th International Joint Conference on Biomedical Engineering Systems and Technologies </a>, where it received the best student paper award. It is <a href="https://github.com/rolandfaure/strainminer"> available on github </a></p>
+			    	An Integer Linear Programming version of HairSplitter was developed with Tam Truong and Rumen Andonov and presented at <a target="_blank" href="https://bioinformatics.scitevents.org/"> 17th International Joint Conference on Biomedical Engineering Systems and Technologies </a>, where it received the best student paper award. It is <a target="_blank" href="https://github.com/rolandfaure/strainminer"> available on github </a></p>
 
                         </div>
             </div>
@@ -164,11 +164,11 @@
                             <p><i>Developped under the supervision of Nadège Guiglielmoni and Jean-François Flot </i></p>
 
                             
-			    <p> <a href="https://www.biorxiv.org/content/10.1101/2021.01.29.428779v1.full">Link to the bioRxiv paper </a></p>
+			    <p> <a target="_blank" href="https://www.biorxiv.org/content/10.1101/2021.01.29.428779v1.full">Link to the bioRxiv paper </a></p>
 			    <p>
-                            	GraphUnzip untangles assembly graphs with the help of long reads and/or Hi-C. It is designed to distinguish the different haplotypes present. Written in Python. <a href="https://github.com/nadegeguiglielmoni/GraphUnzip" > Available on GitHub.</a><br>
-                            	Presented the key idea for the first time at <a href="https://jobim2021.sciencesconf.org/"> JOBIM 2021 </a> <br>
-                            	The long read algorithm was presented for the first time at <a href="https://seqbim.cnrs.fr/"> SeqBIM </a> 2021 thanks to a grant from the SFBI.
+                            	GraphUnzip untangles assembly graphs with the help of long reads and/or Hi-C. It is designed to distinguish the different haplotypes present. Written in Python. <a target="_blank" href="https://github.com/nadegeguiglielmoni/GraphUnzip" > Available on GitHub.</a><br>
+                            	Presented the key idea for the first time at <a target="_blank" href="https://jobim2021.sciencesconf.org/"> JOBIM 2021 </a> <br>
+                            	The long read algorithm was presented for the first time at <a target="_blank" href="https://seqbim.cnrs.fr/"> SeqBIM </a> 2021 thanks to a grant from the SFBI.
                             </p>
                           
                         </div>
@@ -183,9 +183,9 @@
                             
 			    <p><i>Developped under the supervision of Dominique Lavenier </i></p>	
 
-			    <p> <a href="https://academic.oup.com/bioinformaticsadvances/advance-article-abstract/doi/10.1093/bioadv/vbac068/6717790">Link to the published paper (Bioinformatics advances) </a></p>
+			    <p> <a target="_blank" href="https://academic.oup.com/bioinformaticsadvances/advance-article-abstract/doi/10.1093/bioadv/vbac068/6717790">Link to the published paper (Bioinformatics advances) </a></p>
                             <p>
-                            	QuickDeconvolution aims at answering the barcode deconvolution problem when dealing with barcoded reads. It strives at being scalable and parallelisable. Written in C++. <a href="https://github.com/RolandFaure/QuickDeconvolution" > Available on GitHub.</a><br>
+                            	QuickDeconvolution aims at answering the barcode deconvolution problem when dealing with barcoded reads. It strives at being scalable and parallelisable. Written in C++. <a target="_blank" href="https://github.com/RolandFaure/QuickDeconvolution" > Available on GitHub.</a><br>
                             </p>
 
                         </div>
@@ -254,7 +254,7 @@
                             <h3>Tam Minh Khac Truong </h3>
 				<h4>StrainMiner: Data mining and discrete optimizations for strains separation in metagenomes using long reads</h4>
 				<p>Two masters internships of 4 months (2022) and 6 months (2023). Co-supervised with Rumen Andonov <br>
-                            	Worked on a new approach to separate error-prone sequencing reads from several strains of the same species in metagenome. The new approach is based on integer linear programming and showed good performance. This work has been integrated into HairSplitter and presented at the<a href="https://bioinformatics.scitevents.org/"> 17th International Joint Conference on Biomedical Engineering Systems and Technologies </a>. It is <a href="https://github.com/rolandfaure/strainminer"> available on github </a>.
+                            	Worked on a new approach to separate error-prone sequencing reads from several strains of the same species in metagenome. The new approach is based on integer linear programming and showed good performance. This work has been integrated into HairSplitter and presented at the<a target="_blank" href="https://bioinformatics.scitevents.org/"> 17th International Joint Conference on Biomedical Engineering Systems and Technologies </a>. It is <a target="_blank" href="https://github.com/rolandfaure/strainminer"> available on github </a>.
    </p>
                           
                         </div>
@@ -279,7 +279,7 @@
                             <h3>Baptiste Hilaire</h3>
                             <h4>Sequence reduction to increase the speed of bioinformatic tools</h4>
                             <p>Bachelor internship of 6 weeks (2023)<br>
-                            This internship explored the properties of <a href="https://www.cell.com/iscience/pdf/S2589-0042(22)01577-2.pdf"> Mapping-friendly Sequence Reductions (MSRs) </a>, with the final objective to increase the speed and/or decrease the memory needed for some bioinformatic pipelines.
+                            This internship explored the properties of <a target="_blank" href="https://www.cell.com/iscience/pdf/S2589-0042(22)01577-2.pdf"> Mapping-friendly Sequence Reductions (MSRs) </a>, with the final objective to increase the speed and/or decrease the memory needed for some bioinformatic pipelines.
 
                         </div>
             </div>
@@ -446,7 +446,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="copytext">&copy; MyProfile, All rights reserved | Design By: <a
+                    <div class="copytext">&copy; MyProfile, All rights reserved | Design By: <a target="_blank"
                             href="https://themehippo.com">themehippo</a></div>
                 </div>
             </div>
