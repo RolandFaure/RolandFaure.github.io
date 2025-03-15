@@ -53,7 +53,7 @@
                     <h1 class="name">Roland Faure</h1>
                 </div>
                 <p>
-                   I am a recently graduated PhD student working on sequence bioinformatics. I like imagining and implementing algorithmic solutions for biological problems. During my Ph.D., I focused on genome assembly, more specifically the problems of haplotyping and metagenome assembly. For my postdoc, I am moving on to indexation problems.
+                   I am a postdoctoral researcher specializing in sequence bioinformatics, with a passion for designing and implementing algorithmic solutions to biological challenges. During my Ph.D., my work centered on genome assembly, particularly the complexities of haplotyping and metagenome assembly. This led to the development of two notable software tools: <a target="_blank" href="https://github.com/rolandfaure/alice-asm">Alice</a> and <a target="_blank" href="https://github.com/rolandfaure/alice-asm">HairSplitter</a>. In my current postdoctoral research, I am exploring indexation problems.
                 </p>
 
 
@@ -79,7 +79,7 @@
                             <small>2025-?</small>
                             <h4>Aligning on the SRA</h4>
                             
-			    <p><i>In <a target="_blank" href="http://rayan.chikhi.name/">Rayan Chikhi</a>'s lab in the institut Pasteur, France. The goal is to search efficiently through the Logan database, in order to provide a "super-BLAST" that would work on the full SRA. We'll see what happens... </i></p>
+			    <p><i>In <a target="_blank" href="http://rayan.chikhi.name/">Rayan Chikhi</a>'s lab at the institut Pasteur, France. The goal is to search efficiently through the Logan database, in order to provide a "super-BLAST" that would work on the full SRA. </i></p>
 			
 
                         </div>
@@ -95,7 +95,7 @@
                             
                             <p>The Ph.D. manuscript is available <a target="_blank" href="docs/these_compressed.pdf">here</a>.
                             
-			    <p><i>Under the joint supervision of <a target="_blank" href="http://lavenier.net/homepage/"> Dominique Lavenier </a> in the <a target="_blank" href="https://team.inria.fr/genscale/"> Genscale team in Rennes, France </a> and <a target="_blank" href="https://ebe.ulb.be/ebe/Flot.html"> Jean-François Flot </a> in the EBE team at the Université libre de Bruxelles, Belgium. The main work of my Ph.D. consisted in developping methods to obtain haplotype-separated assemblies. In the realm of noisy long reads, this yielded HairSplitter (sse below). In the realm of highly accurate long reads, this yielded the Alice assembler (see below). </i></p>
+			    <p><i>Under the joint supervision of <a target="_blank" href="http://lavenier.net/homepage/"> Dominique Lavenier </a> in the Genscale team in Rennes, France and <a target="_blank" href="https://ebe.ulb.be/ebe/Flot.html"> Jean-François Flot</a> in the EBE team at the Université libre de Bruxelles, Belgium. The main work of my PhD was to develop methods to obtain haplotype-separated assemblies. In the realm of noisy long reads, this led to HairSplitter (see below). In the realm of highly accurate long reads, this led to the Alice assembler (see below). </i></p>
 			
 
                         </div>
@@ -117,13 +117,13 @@
                     <div class="col-md-12">
                         <div class="content-item">
                         
-                            <h3>Alice</h3>
+                            <h3><a target="_blank" href="https://github.com/rolandfaure/alice-asm">Alice</a></h3>
                             <h4>Extremely fast and haplotype-aware assembly of high-fidelity long reads.</h4>
 			    
                             <p>
-                            	Existing fast high-fidelity reads assemblers (mDBG, metaMDBG) are based on k-min-mers sketches of the reads. This sketching method makes it impossible to assemble close strains. The idea of Alice is to use a new sketching method, MSR sketching, which does not have the same shortcoming. Alice is extremely fast while being haplotype-aware.<br>
+                            	Existing fast high-fidelity read assemblers (mDBG, metaMDBG) are based on k-min-mer sketches of the reads. This sketching method makes it impossible to assemble close strains. The idea of Alice is to introduce a new sketching method, MSR sketching, which does not have the same shortcoming. Alice is extremely fast while being haplotype-aware.<br>
                             	Presented as a talk at <a target="_blank" href="https://seqbim.cnrs.fr/seqbim-2023/"> SeqBIM 2023</a> and <a target="_blank" href="https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20241113/"> Genome Informatics 2024 </a>, where I was granted a bursary to come and present it.
-                            I presented and discussed MSR sketching at DSB 2025 in Pisa. You can find the slides <a target="_blank" href="docs/DSB_2025.pdf">here</a>.
+                            It was presented and discussed MSR sketching at DSB 2025 in Pisa. You can find the slides <a target="_blank" href="docs/DSB_2025.pdf">here</a>.
                             </p>
 
 			    <p>The closest thing to a paper there exist yet is Chapter 3 of <a target="_blank" href="docs/these_compressed.pdf#page=86"> my Ph.D. thesis </a></p>
@@ -138,7 +138,7 @@
                     <div class="col-md-12">
                         <div class="content-item">
                         
-                            <h3>Hairsplitter</h3>
+                            <h3><a target="_blank" href="https://github.com/rolandfaure/hairsplitter">HairSplitter</a></h3>
                             <h4>Separating noisy long reads into an unknown number of haplotypes</h4>
 
 			    <p> <a target="_blank" href="https://peercommunityjournal.org/item/10_24072_pcjournal_481/"> Link to the Peer-Community Journal paper </a></p>
@@ -159,7 +159,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="content-item">
-                            <h3>Graphunzip</h3>
+                            <h3><a target="_blank" href="https://github.com/nadegeguiglielmoni/graphunzip">GraphUnzip</a></h3>
                             <h4>Untangling assembly graphs to finish assemblies</h4>
                             <p><i>Developped under the supervision of Nadège Guiglielmoni and Jean-François Flot </i></p>
 
@@ -178,7 +178,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="content-item">
-                            <h3>QuickDeconvolution</h3>
+                            <h3><a target="_blank" href="https://github.com/rolandfaure/alice-asm">QuickDeconvolution</a></h3>
                             <h4>Rapidly separating barcoded reads into groups</h4>
                             
 			    <p><i>Developped under the supervision of Dominique Lavenier </i></p>	
@@ -412,7 +412,7 @@
                     <div class="col-md-3">
                         <address>
                             <strong>Email</strong><br>
-                            <a href="mailto:#">roland.faure@irisa.fr</a>
+                            <a href="mailto:#">roland.faure@pasteur.fr</a>
                         </address>
                     </div>
                     <div class="col-md-3">
