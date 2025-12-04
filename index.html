@@ -238,39 +238,37 @@
                 <div class="profile-info">
                     <h1>Roland Faure</h1>
                     <div class="bio">
-                        I am a recently graduated PhD student working on sequence bioinformatics. I like imagining and implementing algorithmic solutions for biological problems. During my Ph.D., I focused on genome assembly, more specifically the problems of haplotyping and metagenome assembly. For my postdoc, I am implementing efficient methods to browse through the Logan dataset.
+                        My research lies at the intersection of biology and computer science, with a focus on developing algorithms for large-scale (meta)genomic data analysis.
+                        Since February 2025, I am a postdoctoral researcher in <a href="http://rayan.chikhi.name/">Rayan Chikhi</a>'s group at Institut Pasteur, Paris, working 
+                        on efficient indexing and exploration of the <a href="https://github.com/IndexThePlanet/Logan?tab=readme-ov-file">Logan dataset</a>.
+                        Previously, I completed my Ph.D. (2021–2024) on metagenome assembly and strain separation under the joint supervision of 
+                        <a href="https://lavenier.net/homepage/">Dominique Lavenier</a> (Inria Rennes) and <a href="https://ebe.ulb.ac.be/ebe/Flot.html">Jean-François Flot</a> (Université Libre de Bruxelles). 
                     </div>
                 </div>
             </div>
         </div>
 
         <ul class="tabs" id="tabs">
-            <li><button class="tab-button active" data-tab="home">[ home ]</button></li>
-            <li><button class="tab-button" data-tab="publications">[ publications ]</button></li>
+            <li><button class="tab-button active" data-tab="publications">[ publications ]</button></li>
             <li><button class="tab-button" data-tab="talks">[ talks ]</button></li>
             <li><button class="tab-button" data-tab="software">[ software ]</button></li>
             <li><button class="tab-button" data-tab="cv">[ cv ]</button></li>
             <li><button class="tab-button" data-tab="contact">[ contact ]</button></li>
         </ul>
 
-        <!-- home Tab -->
-        <div id="home" class="tab-content active">
-            <div class="content-section">
-                <h2>// ABOUT ME</h2>
-            My research lies at the intersection of biology and computer science, with a focus on developing algorithms for large-scale genomic data analysis.
-            Since February 2025, I am a postdoctoral researcher in <a href="http://rayan.chikhi.name/">Rayan Chikhi</a>'s group at Institut Pasteur, Paris, working on efficient indexing and exploration of the <a href="https://github.com/IndexThePlanet/Logan?tab=readme-ov-file">Logan dataset</a>.
-            Previously, I completed my Ph.D. (2021–2024) on metagenome assembly under the joint supervision of <a href="https://lavenier.net/homepage/">Dominique Lavenier</a> (Inria Rennes) and <a href="https://ebe.ulb.ac.be/ebe/Flot.html">Jean-François Flot</a> (Université Libre de Bruxelles).
-
-            </div>
-        </div>
-
         <!-- Publications Tab -->
-        <div id="publications" class="tab-content">
+        <div id="publications" class="tab-content active">
             <div class="content-section">
-            <h2>// PUBLICATIONS & PREPRINTS</h2>
-            <ul style="padding-left: 0; list-style: none; font-size: 1em">
+            <h2>// PUBLICATIONS, PROCEEDINGS & PREPRINTS</h2>
+            <ul style="padding-left: 0; font-size: 1em">
 
                 <h3 style="color: black">First author</h3>
+                <li>
+                R. Faure <i>et al.</i> <strong>SNooPy: a statistical framework for long-read metagenomic variant calling,</strong> Preprint (2025), 
+                [<a href="docs/snoopy.pdf" target="_blank">PDF</a>]
+                [<a href="https://www.biorxiv.org/content/10.64898/2025.12.01.691549v1" target="_blank">link</a>]
+                </li>
+
                 <li>
                 R. Faure <i>et al.</i> <strong>Alice: fast and haplotype-aware assembly of high-fidelity reads based on MSR sketching,</strong> Preprint (2025), 
                 [<a href="docs/Article_MSR-1.pdf" target="_blank">PDF</a>]
@@ -284,21 +282,21 @@
                 </li>
 
                 <li>
-                R. Faure <i>et al.</i>  <strong>strainMiner: Combining Integer Programming and Data Mining Techniques for Strain-level Metagenome Assembly, </strong> BIOSTEC/BIOINFORMATICS 2024, 
+                R. Faure <i>et al.</i>  <strong>strainMiner: Combining Integer Programming and Data Mining Techniques for Strain-level Metagenome Assembly, </strong> Proceedings of BIOSTEC/BIOINFORMATICS 2024, 
                 [<a href="docs/strainminer.pdf" target="_blank">PDF</a>]
                 [<a href="https://www.scitepress.org/Link.aspx?doi=10.5220/0012320700003657" target="_blank">link</a>]
+                </li>
+
+                <li>
+                R. Faure <i>et al.</i> <strong>GraphUnzip: Untangling assembly graphs to finish assemblies,</strong>
+                [<a href="https://jobim2021.sciencesconf.org/data/proceedings_talks_jobim2021.pdf#page=66" target="_blank">Proceedings of JOBIM 2023</a>]
+                [<a href="docs/these_compressed.pdf#page=107">Ph.D. chapter (2024)</a>]
                 </li>
 
                 <li>
                 R. Faure <i>et al.</i> <strong>QuickDeconvolution: fast and scalable deconvolution of linked-read sequencing data,</strong> Bioinformatics advances (2022), 
                 [<a href="docs/qd.pdf" target="_blank">PDF</a>]
                 [<a href="https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac068/6717790?login=false" target="_blank">link</a>]
-                </li>
-
-                <li>
-                R. Faure <i>et al.</i> <strong>GraphUnzip: Untangling assembly graphs to finish assemblies,</strong>
-                [<a href="https://jobim2021.sciencesconf.org/data/proceedings_talks_jobim2021.pdf#page=66" target="_blank">JOBIM 2023</a>]
-                [<a href="docs/these_compressed.pdf#page=107">Ph.D. chapter (2024)</a>]
                 </li>
 
                 <br>
@@ -398,6 +396,14 @@
                 </div>
 
                 <div class="content-item">
+                    <h3>SNooPy</h3>
+                    <div class="links">
+                        <a href="https://github.com/RolandFaure/snoopy" target="_blank">[GitHub]</a>
+                    </div>
+                    Long read metagenomic variant caller. Implements a novel statistical framework tailored for metagenomic, with no assumptions on coverage, strain evolutionnary history or number of haplotypes.
+                </div>
+
+                <div class="content-item">
                     <h3>HairSplitter</h3>
                     <div class="links">
                         <a href="https://github.com/RolandFaure/Hairsplitter" target="_blank">[GitHub]</a>
@@ -445,7 +451,7 @@
         <div id="cv" class="tab-content">
             <div class="content-section">
 
-                 <div class="content-section">
+                
                 <h2>// CAREER</h2>
 
                 <div class="content-item">
@@ -453,63 +459,27 @@
                     <span class="date">2025-?</span>
                     <h4>Browsing the SRA - Institut Pasteur</h4>
                     Working with Rayan Chikhi on searching
-efficiently through the Logan database
-to create a "super-BLAST" for the full
-SRA.
+efficiently through the Logan database, both for nucleotide sequences and for proteins.
                 </div>
-            </div>
-
-                <h2>// EDUCATION</h2>
 
                 <div class="content-item">
-                    <h3>Ph.D. in Bioinformatics</h3>
+                    <h3>Ph.D.</h3>
                     <span class="date">2021-2024</span>
-                    <h4>Haplotype assembly from long reads</h4>
-                    Joint supervision between
-Dominique Lavenier (Inria Rennes) and
-Jean-François Flot (Université Libre de Bruxelles). Developed
-HairSplitter and Alice assembler.
+                    <h4>Haplotype assembly from long reads - INRIA Rennes and Université Libre de Bruxelles (ULB)</h4>
+                    Developed HairSplitter and Alice assembler. Two years in Rennes and one year in Brussels, co-supervised by Dominique Lavenier and Jean-François Flot.
                 </div>
 
-                <div class="content-item">
-                    <h3>Master in Bioinformatics & Modeling</h3>
-                    <span class="date">2020-2021</span>
-                    <h4>Sorbonne Universités, Paris</h4>
-                </div>
-
-                <div class="content-item">
-                    <h3>Engineering Degree</h3>
-                    <span class="date">2017-2020</span>
-                    <h4>École Polytechnique, Saclay</h4>
-                </div>
             </div>
-
 
             <div class="content-section">
-                <h2>// TEACHING EXPERIENCE</h2>
+                <h2>// RESEARCH EXCHANGES</h2>
 
                 <div class="content-item">
-                    <h3>Java Programming</h3>
-                    <span class="date">2021-2022</span>
-                    20h×2 practical sessions for 1st year
-bachelor computer science students,
-University of Rennes.
-                </div>
-
-                <div class="content-item">
-                    <h3>Python Object-Oriented Programming</h3>
-                    <span class="date">2022-2023</span>
-                    34h×2 practical sessions for 1st year
-master bioinformatics students,
-University of Rennes.
-                </div>
-
-                <div class="content-item">
-                    <h3>Bioinformatics Crash Course</h3>
-                    <span class="date">2022,2023,2024</span>
-                    6-hour crash course for high-school
-students selected for the International
-Biology Olympiad, Brussels.
+                    <h3>Research exchange at Penn State University</h3>
+                    <span class="date">September-October 2025</span>
+                    <h4>Comparing all metagenomes of Logan</h4>
+                    Five week exchange in <a href="https://medvedevgroup.com/principal-investigator/" target="_blank">Paul Medvedev</a>'s group in Penn State University.
+                    Worked on comparing the five million metagenomes of Logan.
                 </div>
             </div>
 
@@ -559,6 +529,49 @@ Mapping-friendly Sequence Reductions
 Bioinformatics advances (2024), PCI
 Mathematical and Computational biology
 (2025)
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>// TEACHING EXPERIENCE</h2>
+
+                <div class="content-item">
+                    <h3>Java Programming</h3>
+                    <span class="date">2021-2022</span>
+                    20h×2 practical sessions for 1st year
+bachelor computer science students,
+University of Rennes.
+                </div>
+
+                <div class="content-item">
+                    <h3>Python Object-Oriented Programming</h3>
+                    <span class="date">2022-2023</span>
+                    34h×2 practical sessions for 1st year
+master bioinformatics students,
+University of Rennes.
+                </div>
+
+                <div class="content-item">
+                    <h3>Bioinformatics Crash Course</h3>
+                    <span class="date">2022,2023,2024</span>
+                    6-hour crash course for high-school
+students selected for the International
+Biology Olympiad, Brussels.
+                </div>
+            </div>
+
+            <h2>// EDUCATION</h2>
+
+                <div class="content-item">
+                    <h3>Master in Bioinformatics & Modeling</h3>
+                    <span class="date">2020-2021</span>
+                    <h4>Sorbonne Universités, Paris</h4>
+                </div>
+
+                <div class="content-item">
+                    <h3>Engineering Degree</h3>
+                    <span class="date">2017-2020</span>
+                    <h4>École Polytechnique, Saclay</h4>
                 </div>
             </div>
         </div>
